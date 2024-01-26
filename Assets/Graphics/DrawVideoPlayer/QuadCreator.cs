@@ -4,7 +4,6 @@ public class QuadCreator : MonoBehaviour
 {
     public float width = 1;
     public float height = 1;
-    //public Material material;
 
     public void Start()
     {
@@ -41,7 +40,7 @@ public class QuadCreator : MonoBehaviour
             Vector3.back,
             Vector3.back,
         };
-        //mesh.normals = normals;
+        mesh.normals = normals;
 
         Vector2[] uv = new Vector2[4]
         {
